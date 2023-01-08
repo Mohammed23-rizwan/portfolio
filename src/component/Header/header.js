@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const header = () => {
   return (
@@ -7,9 +8,19 @@ const header = () => {
             <h2>Devolp<span>er</span></h2>
         </div>
         <div className='header__right'>
-            <div className='rizwan'>
-              
-            </div>
+            <Link to='about' smooth={true} duration={500}>
+              <h4>About Me</h4>
+            </Link>
+            <Link to='skill' smooth={true} duration={500}>
+              <h4>Skills</h4>
+            </Link>
+            <Link to='exp' smooth={true} duration={500}>
+              <h4>Experience</h4>
+            </Link>
+            <Link to='contact' smooth={true} duration={500}>
+              <h4>Contact Me</h4>
+            </Link>
+            <h4>Join With Me</h4>
         </div>
     </div>
   )
