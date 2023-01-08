@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import {Link} from 'react-scroll'
 
-const header = () => {
+const Header = () => {
   return (
     <div className='header'>
         <div className='header__right'>
@@ -26,4 +26,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header;
