@@ -1,0 +1,7 @@
+.topcontainer{
+    background-image: url('../../assests/dp.jpg');
+    height: 100vh;
+    background-position: center;
+    /* background: fixed; */
+    background-size: cover;
+}
