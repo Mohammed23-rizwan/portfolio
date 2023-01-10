@@ -1,6 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+
+.top_container{
+    color: white;
+    position: relative;
+}
 
 
 .top__container{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+.top__container > h2 {
+    font-family: 'montserrat',sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    /* margin-bottom: 20px; */
+}
+.top__container > p{
+    letter-spacing: 1px;
     font-family: 'Roboto',sans-serif;
+    padding-left: 3px;
+    padding-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.top__container > a > button{
+    text-align: left;
+    border: none;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    outline: none;
+}
+.topcontent_downloadbutton{
+    color: white;
+    background-color: red;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+.topcontent_downloadbutton:hover{
+    color: red;
+    background: white;
+    transform: scale(.9);
+}
+.topcontent_myworkbutton{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    background: transparent;
+    border: 1px solid red !important;
+    padding: 8px 45px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topcontent_myworkbutton:hover{
+    color: black;
+    background: white;
+    border: none !important;
 }
